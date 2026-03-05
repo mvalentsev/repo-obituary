@@ -5,31 +5,28 @@
 Every repository deserves a proper goodbye.
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║                    🪦  R . I . P .  🪦                      ║
-║                                                              ║
-║                      kennethreitz/legit                      ║
-║         Git for Humans, Inspired by GitHub for Mac™.        ║
-║                                                              ║
-║  ──────────────────────────────────────────────────────────  ║
-║  Born:   2011-06-25     Died:   2023-09-15  (2 years ago)   ║
-║  Age:    12 years, 2 months                                  ║
-║  Lang:   Python                                              ║
-║  ──────────────────────────────────────────────────────────  ║
-║  ⭐ 5,699 stars   🍴 215 forks   🐛 7 open issues           ║
-║  ──────────────────────────────────────────────────────────  ║
-║  Cause of death:                                             ║
-║    Died trying to fix one last bug                           ║
-║                                                              ║
-║  Last words:                                                 ║
-║    "Merge pull request #275 from frostming/clint-182"        ║
-║                                                              ║
-║  ──────────────────────────────────────────────────────────  ║
-║  Epitaph:                                                    ║
-║    Stars acquired: 5,699. World changed: debatable.          ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+                    🪦  R . I . P .  🪦
+
+                   kennethreitz/legit
+       Git for Humans, Inspired by GitHub for Mac(tm).
+
+  ────────────────────────────────────────────────────────
+  Born:   2011-06-25     Died:   2023-09-15  (2 years ago)
+  Age:    12 years, 2 months
+  Lang:   Python
+  ────────────────────────────────────────────────────────
+  * 5,699 stars   ~ 215 forks   ! 7 open issues
+  ────────────────────────────────────────────────────────
+  Cause of death:
+    Died trying to fix one last bug
+
+  Last words:
+    "Merge pull request #275 from frostming/clint-182"
+
+  ────────────────────────────────────────────────────────
+  Epitaph:
+    Stars acquired: 5,699. World changed: debatable.
+
 ```
 
 ## Usage
