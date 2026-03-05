@@ -83,7 +83,7 @@ def center_ansi(s: str, width: int) -> str:
     return " " * left + s + " " * right
 
 
-def gh_api(path: str, token: str | None) -> dict:
+def gh_api(path: str, token: str | None) -> dict | list:
     url = f"https://api.github.com{path}"
     req = urllib.request.Request(url)
     req.add_header("Accept", "application/vnd.github+json")
@@ -182,10 +182,11 @@ def print_obituary(repo: str, token: str | None, force: bool = False):
     born  = created[:10]
     died  = last_commit[:10]
 
-    epitaph = random.choice(EPITAPHS).format(
-        stars=f"{stars:,}",
-        last_msg=last_msg,
-        open_issues=open_issues,
+    epitaph = (
+        random.choice(EPITAPHS)
+        .replace("{stars}", f"{stars:,}")
+        .replace("{last_msg}", last_msg)
+        .replace("{open_issues}", str(open_issues))
     )
 
     W = 60

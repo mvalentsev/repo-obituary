@@ -65,6 +65,8 @@ No dependencies. Pure Python 3.10+.
 | `revert` | reverted into oblivion |
 | `initial commit` | never made it past the initial commit |
 | `cleanup` | cleaned up so hard it no longer existed |
+| `update dep` | dependency-updated into incompatibility |
+| `bump` | versioned itself into irrelevance |
 | `experiment` | remained an experiment until the very end |
 | `test` | died writing tests that were never green |
 | `draft` | marked as draft and never un-drafted |
@@ -74,7 +76,7 @@ No dependencies. Pure Python 3.10+.
 
 ```bash
 python obituary.py kennethreitz/legit
-python obituary.py nicowillis/pickledb
+python obituary.py GitSquared/edex-ui
 python obituary.py torvalds/uemacs
 ```
 
