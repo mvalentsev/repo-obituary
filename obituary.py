@@ -141,7 +141,7 @@ def is_dead(last_commit: str, threshold_days: int = 365) -> bool:
 def pick_cause(commits: list) -> str:
     messages = " ".join(c["commit"]["message"].lower() for c in commits[:10])
     for keyword, cause in COMMIT_CAUSES.items():
-        if keyword in messages:
+        if re.search(rf"\b{re.escape(keyword)}\b", messages):
             return cause
     return random.choice(FALLBACK_CAUSES)
 
