@@ -7,7 +7,7 @@ Every repository deserves a proper goodbye.
 ```
                      🪦  R . I . P .  🪦
 
-                      kennethreitz/legit
+                      frostming/legit
         Git for Humans, Inspired by GitHub for Mac(tm).
 
   ────────────────────────────────────────────────────────
@@ -75,7 +75,7 @@ No dependencies. Pure Python 3.10+.
 ## Examples
 
 ```bash
-python obituary.py kennethreitz/legit
+python obituary.py frostming/legit
 python obituary.py GitSquared/edex-ui
 python obituary.py torvalds/uemacs
 ```
